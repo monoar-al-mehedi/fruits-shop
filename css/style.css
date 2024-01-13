@@ -117,13 +117,14 @@ button:hover {
     transition: all 0.3s ease-in;
 }
 ::-webkit-scrollbar {
-    width: 10rem;
+    width: 1rem;
 }
 ::-webkit-scrollbar-track {
     background: var(--white);
 }
 ::-webkit-scrollbar-thumb {
-    background: var (--secondary-color);
+    background: var(--bg-dark-color);
+    border-radius: 10px;
 }
 .main-btn {
     position: relative;
